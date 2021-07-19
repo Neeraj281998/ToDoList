@@ -1,0 +1,27 @@
+<div class="clearAll">
+
+  <button mat-raised-button (click)="onClearAll()"color="primary">Clear All</button>
+</div>
+
+<div class="inputPanel">
+<mat-card>
+    <mat-form-field>
+
+      <input matInput [(ngModel)]="enterData">
+    </mat-form-field>
+    <button mat-raised-button (click)="onAdd()"color="primary">Add</button>
+  </mat-card>
+</div>
+
+<div class="displayCard">
+  <mat-card *ngFor="let item of items ; let i = index">
+   Task {{i+1}} => {{item}}
+    <div class="displayButton">
+
+      <button mat-fab color="primary" (click)="onDelete(i)">
+        <mat-icon>delete</mat-icon></button>
+    </div>
+  </mat-card>
+</div>
+
+

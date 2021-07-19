@@ -1,0 +1,13 @@
+body {
+  background: url("../../bg.jpg");
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+  font-family: "Calibri";
+  font-weight: bolder;
+}

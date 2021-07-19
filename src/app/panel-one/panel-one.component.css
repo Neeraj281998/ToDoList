@@ -1,0 +1,32 @@
+.inputPanel {
+  width: 60%;
+  margin: auto;
+  margin-top: 3cm;
+
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+mat-form-field,
+textarea {
+  width: 100%;
+}
+.displayCard {
+  width: 60%;
+  margin: auto;
+  margin-top: 1cm;
+
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+mat-card {
+  margin-top: 0.5cm;
+  background-color: azure;
+}
+
+.displayButton {
+  text-align: right;
+}
+.clearAll {
+  padding-right: 4cm;
+  text-align: right;
+}
